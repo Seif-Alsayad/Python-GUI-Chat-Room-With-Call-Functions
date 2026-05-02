@@ -16,7 +16,6 @@ def main():
     app = ChatGUI(root)       
     client = TextClient()     
 
-    # Track the call state
     current_call_partner = None
     current_call_ip = None
     current_rx_port = 0
